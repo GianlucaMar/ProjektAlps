@@ -64,12 +64,13 @@ article:nth-of-type(4){
     margin: 100px;
 }
 
+/* abgeguckt und funktioniert nicht, warum?
 article:nth-of-type(4) p:nth-of-type(1) ::after{
 content: "- SOLD OUT";
 margin-left: 10px;
 color: red;
 font-weight: bold;
-}
+} */
 article p:nth-of-type(2)::after{
 content: "- SOLD OUT";
 margin-left: 10px;
